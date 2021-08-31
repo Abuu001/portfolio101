@@ -1,0 +1,74 @@
+.TopNavBar{
+    width: 100%;
+    height: 50px;
+    background-color: #000C66;
+    display: flex;
+    padding-top: 14px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.row1,.row2{
+    display: flex;
+    flex-direction: row;
+    flex: .5;
+    justify-content: space-around;
+    list-style: none;
+}
+ 
+.Nav_link{
+    text-decoration: none;
+    padding-right: 42px;
+    padding-left: 14px; 
+    border-right: 2px solid #6c757d;
+    font-weight: bold;
+
+}
+#tab-row{
+    display: flex;
+    flex-direction: row;
+
+}
+.lk{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 30px;
+    transition-property: border-left;
+    transition-duration: 3s;
+    transition-delay: 1s;
+}
+.lk:hover{ 
+    border-left:30px solid orange;
+}
+.Nav_link:active {
+    color: #8dc442;
+}
+.Nav_link:visited {
+    color: orange;
+}
+.Nav_link:hover {
+    color: #39b54a;
+}
+.activeRoute {
+ cursor: not-allowed;
+}
+@media (max-width:700px){
+    .TopNavBar{
+        padding-top: 10px;
+        flex: 1;
+        justify-content: space-around;
+        height: 86px;
+    }
+    .row1,.row2{
+        justify-content: space-between;
+    }
+    .Nav_link{
+        border-right: none;
+    }
+}
+ 

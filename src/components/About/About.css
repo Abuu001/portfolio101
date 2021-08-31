@@ -1,0 +1,90 @@
+.About{
+    width: 100%;
+    padding-left: 13px;
+    position: relative;
+    top: 50px;
+    padding-bottom: 80px;
+}
+#about_Background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: .2;
+    position: absolute;
+    top: 110px;
+    left: 39px;
+    position: fixed;
+   width: 100% ;
+   z-index: 0;
+}
+#about_Background > .color1{
+    width: 35%;
+    object-fit: contain;
+ 
+}
+#page_title{
+    font-weight: 800;
+}
+.text_transition{
+    color: orange; 
+    font-size: 23px;
+    font-weight: 800;
+    font-family: 'Source Code Pro', monospace;
+}
+.profile_photo{
+    /* width: 425px;
+    height: 425px; */
+    width: 325px;
+    height: 325px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.profile_photo > img{
+   
+    width: 435px;
+      height: 625px;
+    object-fit: contain;
+}
+#about__details:hover{
+    color: orange;
+    cursor: pointer;
+}
+#media__links{
+    text-decoration: none;
+    font-weight: 800;
+}
+#media__links:hover{
+    color: rgb(120, 120, 204);
+}
+#github{
+    text-decoration: none;
+    font-weight: 800;
+    color: black;
+}
+#github:hover{
+    color: #ccc;
+}
+#about__text{
+    padding-top: 43px;
+    color: black;
+    opacity: 8;
+    font-size: 22px;
+}
+@media (max-width:700px){
+    #about_Background > .color1{
+        width: 85%;
+    }
+    #about_Background{
+        left: 15px;
+    }
+    .About{
+        top: 100px;
+    }
+    .text_transition{
+        font-size: 17px;
+    }
+}

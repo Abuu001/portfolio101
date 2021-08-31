@@ -1,0 +1,18 @@
+.HomePageImg > img{
+    width: 100%;
+    object-fit: contain;
+   opacity: 1;
+}
+#profile-photo{
+  position: absolute;
+  top:335px;
+  left: 500px;
+  font-size: 89px;
+}
+@media(max-width: 500px){
+  .HomePageImg > img{
+    width: 100%;
+    object-fit:fill;
+    height:50vh;
+  }
+}

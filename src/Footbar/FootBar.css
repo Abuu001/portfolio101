@@ -1,0 +1,53 @@
+.FootBar{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+}
+
+.color1{
+    color: rgb(12, 180, 209);
+    width: 75px;
+}
+.color2{
+    color: rgb(31, 134, 5);
+    width: 75px;
+}
+.color3{
+    color: rgb(240, 236, 26);
+    width: 67px;
+}
+.color9{
+    color: red;
+    width: 67px;
+    padding-right: 4px;
+  }
+#icon-pad >img {
+    width: 67px;
+    object-fit: contain;
+}
+#icon-pad,#icon-pad1{
+    padding-right: 100px;
+}
+#icon-pad1 > img{
+    width: 150px;
+    object-fit: contain;
+}
+.icon-img {
+ 
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+@media (max-width:700px){
+    #icon-pad,#icon-pad1{
+        padding-right: 50px;
+    }
+}

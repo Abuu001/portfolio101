@@ -1,0 +1,40 @@
+.Work{
+    width: 100%;
+    position: relative;
+    top: 60px;
+    margin-bottom: 120px;
+    padding-left: 13px;
+}
+.work__container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.project__icon__React{
+    color: rgb(12, 180, 209);
+    width: 35px;
+}
+.project__icon__Node{
+    color: rgb(31, 134, 5);
+    width: 35px;
+}
+.project__icon__Html{
+    color: rgb(252, 29, 29);
+    width: 35px;
+}
+.project__icon__JS{
+    color: yellow;
+    width: 35px;
+}
+ .project__icon__NPM{
+    color: rgb(230, 27, 71);
+    width: 55px;
+ }
+@media (max-width:700px){
+    .project__icon__React,.project__icon__Node,.project__icon__Html,.project__icon__JS,.project__icon__NPM{
+        width: 55px;
+    }
+
+}
